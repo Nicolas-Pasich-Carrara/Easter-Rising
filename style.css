@@ -1,4 +1,26 @@
-p {
+header {
     background-color: red;
-    color: blue;
+    min-height: 200px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.box {
+    background-color: orange;
+    min-height: 400px;
+    width: 30%;
+    display: inline-block;
+    margin: 0px 10px;
+    margin-bottom: 50px;
+}
+
+.container {
+    width: 75%;
+    margin: auto;
+}
+
+footer {
+    background-color: yellow;
+    min-height: 100px;
+    width: 100%;
 }
