@@ -26,21 +26,26 @@ h2 {
 }
 
 .box {
-    background-color: rgb(126, 255, 215);
+    background-color: rgb(126, 255, 210);
     height: 400px;
     width: 30%;
     display: inline-block;
     margin: 0px 10px;
     margin-bottom: 50px;
+    transition:transform 500ms ease-in-out;
 }
 
+.box:hover{
+    transform:scale(1.1);
+    background-color: rgba(126,255,210, 0.7)
+}
 .container {
     width: 75%;
     margin: auto;
 }
 
 footer {
-    background-color: yellow;
+    background-color: rgb(90, 80, 80);
     min-height: 100px;
     width: 100%;
 }
