@@ -2,6 +2,8 @@ header {
     background-color: rgb(90, 80, 80);
     width: 100%;
     margin-bottom: 75px;
+    outline: 1px solid white;
+    outline-offset: -5px;
 }
 
 h1 {
@@ -53,15 +55,56 @@ footer {
 h3 {
     text-align: center;
     font-size: 30px;
-    color: rgb(255, 0, 0);
+    color: #000;
 }
 
-a {
-    color: rgb(255, 0, 0);
+.button-box {
+    color: #fff;
     font-size: 20px;
     text-align: center;
+    font-weight: 500;
+    background-color: rgb(90, 80, 80);
+    border-radius: 5px;
+    padding: 10px 25px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 25px;
 }
 
 .box {
     text-align: center;
+}
+
+.para-box {
+    padding: 0px 30px;
+}
+
+.hr-box {
+    width: 50%;
+    border: 1px solid #999;
+}
+
+h4 {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.easter-box {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    line-height: 24px;
+}
+
+.easter-p {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+}
+
+.easter-imgone {
+    width: 800px;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 25px;
 }
