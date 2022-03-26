@@ -50,6 +50,8 @@ footer {
     background-color: rgb(90, 80, 80);
     min-height: 100px;
     width: 100%;
+    text-align: center;
+    margin-top: 70px;
 }
 
 h3 {
@@ -77,6 +79,11 @@ h3 {
 
 .para-box {
     padding: 0px 30px;
+    height: 125px;
+}
+
+.head-box {
+    height: 50px;
 }
 
 .hr-box {
@@ -107,4 +114,50 @@ h4 {
     margin: auto;
     margin-bottom: 50px;
     margin-top: 25px;
+}
+
+.home {
+    color: rgb(0,0,0);
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+    background-color: rgb(126, 255, 210);
+    border-radius: 5px;
+    padding: 10px 25px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.war-imgone {
+    width: 800px;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 25px;
+}
+
+.cival war {
+    width: 800px;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 25px;
+}
+
+.sources {
+    color: rgb(0,0,0);
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+    background-color: rgb(126, 255, 210);
+    border-radius: 5px;
+    padding: 10px 25px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.source-link {
+    display: block;
+    padding-left: 50px;
+    text-decoration: none;
 }
